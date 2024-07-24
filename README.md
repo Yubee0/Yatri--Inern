@@ -1,4 +1,4 @@
-# Yatri--Inern
+# Yatri--Intern
 
 
 # A trainee website for crochets.
