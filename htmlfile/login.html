@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Yatriknits</title>
+    <link rel="stylesheet" href="/cssfile/login.css">
+</head>
+<body>
+    <nav>
+        <div><img src="../asset/logo.png" alt="Yatriknits Logo"></div>   
+        <div> 
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Products">Our Products</a></li> 
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Contact">Contact Us!</a></li>
+                <li><a href="#" class="logout">Log Out</a></li>               
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div class="welcomeMessage" id="welcomeMessage">
+        <img src="../asset/yatri.png" alt="Yatrika Garbuja">
+        <h2>Welcome to Yatriknits!</h2>
+        <p>Hello! I'm Yatrika Garbuja, the creator behind Yatriknits. Crochet has been my passion for many years, and it brings me immense joy to share my creations with you. Every item you see here is handmade with love and attention to detail. I started Yatriknits to connect with fellow crochet enthusiasts and to bring the warmth and beauty of handmade crochet items to everyone. I hope you find something that you love!</p>
+    </div>
+    <br><br>
+
+    <div class="CustomerReviews" id="CustomerReviews">
+      <h2>Customer Reviews</h2>
+      <div class="review-item">
+          <h3>John Smith</h3>
+          <img src="../asset/person1.jfif">
+          <p>"I bought a crochet scarf from Yatriknits and it's absolutely perfect! The quality is amazing and it keeps me warm during the cold months. Highly recommend!"</p>
+      </div>
+      <div class="review-item">
+          <h3>Mary Johnson</h3>
+          <img src="../asset/person2.jfif">
+          <p>"The crochet blanket I purchased is beautiful and incredibly soft. Jane's craftsmanship is top-notch. I will definitely be buying more items in the future!"</p>
+      </div>
+      <div class="review-item">
+          <h3>Michael Brown</h3>
+          <img src="../asset/person3.jfif">
+          <p>"Yatriknits exceeded my expectations! The crochet hat I received is so cozy and stylish. I get compliments on it all the time."</p>
+      </div>
+      <div class="review-item">
+          <h3>Sarah Davis</h3>
+          <img src="../asset/person4.jfif">
+          <p>"I ordered a set of crochet coasters as a gift and they were a hit! The intricate designs and vibrant colors made them stand out. Thank you, Yatriknits!"</p>
+      </div>
+      <div class="review-item">
+          <h3>Emily Wilson</h3>
+          <img src="../asset/person5.jfif">
+          <p>"The crochet doll I bought for my daughter is adorable and very well made. She loves it and carries it everywhere. Fantastic work!"</p>
+      </div>
+  </div>
+
+    <div class="Contact" id="Contact">
+        <form id="contact-form" onsubmit="formHandler(event)">
+            <h3>Contact Us!</h3>
+            <div>
+                <input type="text" id="Username" name="Username" placeholder="Name">
+            </div>
+            <div>
+                <input type="text" id="Address" name="Address" placeholder="Address">
+            </div>
+            <div>
+                <input type="email" id="email" name="email" placeholder="Email">
+            </div>
+            <div>
+                <input type="tel" id="Phone" name="Phone" placeholder="Phone Number">
+            </div>
+            <div>
+                <input type="text" id="About" name="About" placeholder="Write your Query ........">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="/jsfile/yatri.js"></script>
+    <script src="/jsfile/login.js"></script>
+</body>
+<br>
+<footer>CopyRight by @yubee_fleetPanda</footer>
+</html>
